@@ -9,15 +9,18 @@ The datasets utilised in this project contain randomly selected data from the fi
 * Trip Durations
 * Start and End Stations
 * User Types
+
 Additionally for Chicago and New York City:
 * Gender
 * Birth Year
+
 With the option to filter by city, month, and day of the week, users can return statistics such as:
 * Most frequent times of travel
 * Most popular stations
 * Average trip durations
 * User type counts
 * Gender and birth year information
+
 Raw data is also available to view.
 
 ## Software
