@@ -24,7 +24,7 @@ With the option to filter by city, month, and day of the week, users can return 
 Raw data is also available to view.
 
 ## Software
-The software requirements for this project were **Python 3**, with the addition of the Python libraries **NumPy** and **Pandas**. These were installed using **Anaconda**.
+The software requirements for this project were **Python 3**, with the addition of the Python libraries **NumPy** and **Pandas**. These were installed using **Anaconda**. Text editor software such as **Sublime** or **Visual Studio Code** was helpful in the initial stages of writing the code.
 
 ### Credits and Acknowledgements
 I would like to acknowledge Udacity for their extremely informative coursework which has helped me in understanding and learning the skills necessary to complete this project as part of my nanodegree.
