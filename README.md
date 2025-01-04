@@ -26,5 +26,8 @@ The software requirements for this project were Python 3, with the addition of t
 ### Credits and Acknowledgements
 I would like to acknowledge Udacity for their extremely helpful and informative coursework in understanding the skills necessary to complete this project as part of my programming nanodegree.
 
+### Author
+I, Morgan Goodey, was the sole author of this project, and repository.
+
 ### Date Created
 This project was created on 06/12/24, and the ReadMe file created on 04/01/25.
