@@ -26,7 +26,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input('If you would like to filter by month, please enter "January", "February", "March", "April", "May" or "June". If you would like to see data for all months, please enter "all".\n').lower()
+        month = input('If you would like to filter by month, please enter "January", "February", "March", "April", "May" or "June". For all months, please enter "all".\n').lower()
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         if month != "all" and month not in months:
             print('Please try again and enter a valid month option.\n')
@@ -165,7 +165,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_raw_data(df):
+def dis_raw_data(df):
     row_start = 0
     raw_data = input('Do you wish to see 5 rows of raw data used in these calculations? Please answer "Yes" or "No". '.lower())
     while True:
@@ -188,7 +188,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        display_raw_data(df)
+        dis_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
